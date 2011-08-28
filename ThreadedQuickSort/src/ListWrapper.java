@@ -1,4 +1,3 @@
-import java.util.LinkedList;
 import java.util.List;
 
 
@@ -15,6 +14,6 @@ public class ListWrapper <TYPE>{
 	
 	public ListWrapper(){
 		super();
-		lst = new LinkedList<TYPE>();
+		lst = null;
 	}
 }
